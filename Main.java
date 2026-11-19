@@ -16,9 +16,9 @@ class Bird extends Animal implements Flyable {
 
 public class Main {
     public static void main(String[] args) {
-        Bird eagle = new Bird("Eagle");
-        eagle.makeSound();
-        eagle.fly();
-        eagle.sleep();
+        Bird pigeon = new Bird("Pigeon");
+        pigeon.makeSound();
+        pigeon.fly();
+        pigeon.sleep();
     }
 }
