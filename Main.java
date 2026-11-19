@@ -12,6 +12,10 @@ class Bird extends Animal implements Flyable {
     public void fly() {
         System.out.println(name + " is flying high.");
     }
+
+    public void layEggs() {
+        System.out.println(name + " lays eggs.");
+    }
 }
 
 public class Main {
@@ -20,5 +24,6 @@ public class Main {
         pigeon.makeSound();
         pigeon.fly();
         pigeon.sleep();
+        pigeon.layEggs();
     }
 }
